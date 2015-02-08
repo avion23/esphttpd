@@ -11,15 +11,16 @@ been loaded <b>%counter%</b> times.
 <ul>
 <li>If you haven't connected this device to your WLAN network now, you can <a href="/wifi">do so.</a></li>
 <li>You can also control the <a href="led.tpl">LED</a>.</li>
+<li>here is a link to the dht22 page <a href="dht22.tpl">DHT22</a>.</li>
 <li>You can download the raw <a href="flash.bin">contents</a> of the SPI flash rom</li>
-<li>And because I can, here's a link to my <a href="http://spritesmods.com/?f=esphttpd">website</a></ul>
+<li>You can read out the internal <a href="adc.tpl">ADC Sensor</a>.</li>
+<li>You can also restart the device </li>
+<form method="post" action="restart.cgi">
+<input type="submit" name="restart_button" value="restart now">
+</form>
 </ul>
 </p>
 
-<p>And because we're on the Internets now, here are the required pictures of cats:<br />
-<img src="cats/cross-eyed-cat.jpg"><br />
-<img src="cats/junge-katze-iv.jpg"><br />
-<img src="cats/kitten-loves-toy.jpg"><br />
-</p>
+
 </div>
 </body></html>

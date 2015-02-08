@@ -12,17 +12,17 @@ Esp8266 http server - core routines
  */
 
 
-#include "espmissingincludes.h"
 #include "c_types.h"
 #include "user_interface.h"
 #include "espconn.h"
 #include "mem.h"
-#include "osapi.h"
 
 #include "espconn.h"
 #include "httpd.h"
 #include "io.h"
 #include "espfs.h"
+#include <osapi.h>
+#include <espmissingincludes.h>
 
 
 //Max length of request head

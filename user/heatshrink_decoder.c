@@ -15,6 +15,9 @@
 #include "heatshrink_config_httpd.h"
 #define memset(x,y,z) os_memset(x,y,z)
 #define memcpy(x,y,z) os_memcpy(x,y,z)
+
+// taken from esp8266-dht. Seems to be a better idea than just using malloc
+#define malloc(x) os_malloc(x)
 #include "../lib/heatshrink/heatshrink_decoder.c"
 
 #endif
